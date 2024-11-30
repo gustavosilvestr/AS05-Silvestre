@@ -70,7 +70,6 @@ def main():
             # Armazena nas variáveis de estado
             st.session_state.sentences = sentences
             st.session_state.embeddings = embeddings
-        st.success("Documento processado e indexado com sucesso!")
 
     # Campo de pergunta
     if st.session_state.embeddings is not None:
