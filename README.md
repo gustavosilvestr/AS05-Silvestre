@@ -1,19 +1,34 @@
-# 📄 Document question answering template
+# AS05 Gustavo Silvestre
 
-A simple Streamlit app that answers questions about an uploaded document using LLM.
+## Link da aplicação
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://document-question-answering-template.streamlit.app/)
+[https://as05-silvestre.streamlit.app/](https://as05-silvestre.streamlit.app/)
 
-### How to run it on your own machine
+## Instruções para execução local
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
+0. Criação e inicialização de ambiente virtual no Linux (opcional)
 
    ```
-   $ streamlit run streamlit_app.py
+   python3 -m venv as05
+   ```
+   ```
+   source as05/bin/activate
+   ```
+
+1. Entre na pasta do projeto
+
+   ```
+   cd AS05
+   ```
+
+2. Instale as bibliotecas
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Execute o programa
+
+   ```
+   streamlit run streamlit_app.py
    ```
